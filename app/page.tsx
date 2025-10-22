@@ -6,7 +6,7 @@ export default function HomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <main className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-in-out" id="navbar">
@@ -463,7 +463,7 @@ export default function HomePage() {
     .rotate-y-180 {
       transform: rotateY(180deg);
     }
-    .group:hover .group-hover\:rotate-y-180 {
+    .group:hover .group-hover\\:rotate-y-180 {
       transform: rotateY(180deg);
     }
   `}</style>
@@ -503,7 +503,7 @@ export default function HomePage() {
           ))}
         </div>
         <p className="text-slate-700 leading-relaxed italic">
-          "Shinobi Canvas transformed our entire campaign workflow. The analytics dashboard alone saved us 15 hours per week. Our conversion rates jumped 47% in just two months!"
+          &quot;Shinobi Canvas transformed our entire campaign workflow. The analytics dashboard alone saved us 15 hours per week. Our conversion rates jumped 47% in just two months!&quot;
         </p>
       </div>
 
@@ -528,7 +528,7 @@ export default function HomePage() {
           ))}
         </div>
         <p className="text-slate-700 leading-relaxed italic">
-          "We've tried every marketing platform out there, but Shinobi Canvas is in a league of its own. The A/B testing features are incredibly intuitive, and the ROI tracking is phenomenal. Our clients are seeing results they never thought possible."
+          &quot;We&apos;ve tried every marketing platform out there, but Shinobi Canvas is in a league of its own. The A/B testing features are incredibly intuitive, and the ROI tracking is phenomenal. Our clients are seeing results they never thought possible.&quot;
         </p>
         <div className="mt-6 pt-6 border-t border-slate-200">
           <p className="text-sm text-slate-600 font-semibold">
@@ -558,7 +558,7 @@ export default function HomePage() {
           ))}
         </div>
         <p className="text-slate-700 leading-relaxed italic">
-          "Shinobi Canvas is a game-changer for growth marketing. The automation features let us scale campaigns without scaling our team. Best investment we've made this year!"
+          &quot;Shinobi Canvas is a game-changer for growth marketing. The automation features let us scale campaigns without scaling our team. Best investment we&apos;ve made this year!&quot;
         </p>
       </div>
 
@@ -583,7 +583,7 @@ export default function HomePage() {
           ))}
         </div>
         <p className="text-slate-700 leading-relaxed italic">
-          "The customer segmentation tools in Shinobi Canvas are absolutely brilliant. We're now able to personalize campaigns at scale and our engagement metrics have skyrocketed. The support team is also incredibly responsive."
+          &quot;The customer segmentation tools in Shinobi Canvas are absolutely brilliant. We&apos;re now able to personalize campaigns at scale and our engagement metrics have skyrocketed. The support team is also incredibly responsive.&quot;
         </p>
         <div className="mt-6 pt-6 border-t border-slate-200">
           <p className="text-sm text-slate-600 font-semibold">
@@ -613,7 +613,7 @@ export default function HomePage() {
           ))}
         </div>
         <p className="text-slate-700 leading-relaxed italic">
-          "I was skeptical at first, but Shinobi Canvas exceeded all expectations. The multi-channel campaign management is seamless, and the real-time reporting gives us the agility we need in today's fast-paced market."
+          &quot;I was skeptical at first, but Shinobi Canvas exceeded all expectations. The multi-channel campaign management is seamless, and the real-time reporting gives us the agility we need in today&apos;s fast-paced market.&quot;
         </p>
       </div>
 
@@ -638,7 +638,7 @@ export default function HomePage() {
           ))}
         </div>
         <p className="text-slate-700 leading-relaxed italic">
-          "Shinobi Canvas has become the backbone of our marketing operations. The integration capabilities are outstanding, and it plays perfectly with our existing tech stack. Couldn't imagine running campaigns without it now."
+          &quot;Shinobi Canvas has become the backbone of our marketing operations. The integration capabilities are outstanding, and it plays perfectly with our existing tech stack. Couldn&apos;t imagine running campaigns without it now.&quot;
         </p>
         <div className="mt-6 pt-6 border-t border-slate-200">
           <p className="text-sm text-slate-600 font-semibold">
@@ -801,368 +801,4 @@ export default function HomePage() {
             onClick={() => window.location.href = 'https://buy.stripe.com/test_5kQ7sN0IX2Pqalc8WP0VO00'}
             className="w-full bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 hover:from-purple-500 hover:via-pink-500 hover:to-purple-500 text-white text-xl font-bold py-6 px-8 rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 relative overflow-hidden group"
           >
-            <span className="relative z-10 flex items-center justify-center gap-3">
-              Start Your Shinobi Canvas Journey
-              <svg className="w-6 h-6 group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-              </svg>
-            </span>
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 translate-x-full group-hover:translate-x-[-200%] transition-transform duration-1000"></div>
-          </button>
-
-          {/* Trust Indicators */}
-          <div className="flex flex-wrap items-center justify-center gap-6 text-gray-400 text-sm">
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span className="font-medium text-white">Secure Payment</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
-              </svg>
-              <span className="font-medium text-white">SSL Encrypted</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span className="font-medium text-white">Money-Back Guarantee</span>
-            </div>
-          </div>
-
-          <p className="text-center text-gray-500 text-xs mt-6">
-            Powered by Stripe • Cancel anytime • No hidden fees
-          </p>
-        </div>
-      </div>
-    </div>
-
-    {/* Bottom Trust Bar */}
-    <div className="mt-12 text-center">
-      <p className="text-gray-400 text-sm mb-4">Trusted by 10,000+ marketing professionals worldwide</p>
-      <div className="flex items-center justify-center gap-8 opacity-50">
-        <div className="text-gray-500 font-bold">STRIPE</div>
-        <div className="text-gray-500">•</div>
-        <div className="text-gray-500 font-bold">256-BIT SSL</div>
-        <div className="text-gray-500">•</div>
-        <div className="text-gray-500 font-bold">PCI COMPLIANT</div>
-      </div>
-    </div>
-  </div>
-</div>
-      
-      {/* Contact Form - Supabase Integration */}
-      <section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden">
-  {/* Animated Background Elements */}
-  <div className="absolute inset-0 opacity-20">
-    <div className="absolute top-20 left-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
-    <div className="absolute top-40 right-10 w-72 h-72 bg-pink-500 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"></div>
-    <div className="absolute bottom-20 left-1/2 w-72 h-72 bg-indigo-500 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"></div>
-  </div>
-
-  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
-    <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-      
-      {/* Hero Content - Inline with Form */}
-      <div className="text-white space-y-6 lg:pr-8">
-        <div className="inline-block">
-          <span className="bg-gradient-to-r from-purple-400 to-pink-400 text-white text-sm font-semibold px-4 py-2 rounded-full">
-            🎨 Marketing Excellence
-          </span>
-        </div>
-        
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-          Transform Your Brand with{' '}
-          <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
-            Shinobi Canvas
-          </span>
-        </h1>
-        
-        <p className="text-lg sm:text-xl text-gray-300 leading-relaxed">
-          Elevate your marketing strategy with data-driven campaigns that convert. 
-          Let Shinobi Canvas craft your brand's masterpiece.
-        </p>
-
-        <div className="grid sm:grid-cols-2 gap-4 pt-4">
-          <div className="flex items-start space-x-3">
-            <div className="flex-shrink-0 w-10 h-10 bg-purple-500/20 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-            <div>
-              <h3 className="font-semibold text-white">Fast Response</h3>
-              <p className="text-sm text-gray-400">Within 24 hours</p>
-            </div>
-          </div>
-          
-          <div className="flex items-start space-x-3">
-            <div className="flex-shrink-0 w-10 h-10 bg-pink-500/20 rounded-lg flex items-center justify-center">
-              <svg className="w-5 h-5 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <div>
-              <h3 className="font-semibold text-white">Proven Results</h3>
-              <p className="text-sm text-gray-400">300% avg ROI</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex items-center space-x-6 pt-4">
-          <div className="flex -space-x-3">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-400 to-pink-400 border-2 border-slate-900"></div>
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-pink-400 to-indigo-400 border-2 border-slate-900"></div>
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-400 to-purple-400 border-2 border-slate-900"></div>
-          </div>
-          <p className="text-sm text-gray-400">
-            <span className="text-white font-semibold">500+</span> brands transformed
-          </p>
-        </div>
-      </div>
-
-      {/* Contact Form */}
-      <div className="relative">
-        <div className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl border border-white/20">
-          <div className="mb-6">
-            <h2 className="text-2xl font-bold text-white mb-2">Start Your Journey</h2>
-            <p className="text-gray-300">Fill out the form and let's create magic together</p>
-          </div>
-
-          <form onSubmit={async (e) => {
-            e.preventDefault();
-            const form = e.target;
-            const submitButton = form.querySelector('button[type="submit"]');
-            const statusDiv = form.querySelector('#formStatus');
-            
-            // Get form data
-            const formData = {
-              name: form.name.value,
-              email: form.email.value,
-              phone: form.phone.value,
-              company: form.company.value,
-              budget: form.budget.value,
-              services: form.services.value,
-              message: form.message.value,
-              source: 'Shinobi Canvas - Marketing Contact Form'
-            };
-
-            // Set loading state
-            submitButton.disabled = true;
-            submitButton.innerHTML = '<svg className="animate-spin h-5 w-5 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle><path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>';
-            statusDiv.className = 'hidden';
-
-            try {
-              const response = await fetch('https://deep-api-server-2moiw.kinsta.app/api/form-submissions', {
-                method: 'POST',
-                headers: {
-                  'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(formData)
-              });
-
-              if (response.ok) {
-                statusDiv.className = 'mt-4 p-4 bg-green-500/20 border border-green-500/50 rounded-lg text-green-300 text-sm';
-                statusDiv.textContent = '✓ Success! We\'ll contact you within 24 hours.';
-                form.reset();
-              } else {
-                throw new Error('Submission failed');
-              }
-            } catch (error) {
-              statusDiv.className = 'mt-4 p-4 bg-red-500/20 border border-red-500/50 rounded-lg text-red-300 text-sm';
-              statusDiv.textContent = '✗ Something went wrong. Please try again or email us directly.';
-            } finally {
-              submitButton.disabled = false;
-              submitButton.innerHTML = 'Send Message';
-            }
-          }} className="space-y-4">
-            
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-200 mb-2">
-                Full Name *
-              </label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition"
-                placeholder="John Doe"
-              />
-            </div>
-
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-200 mb-2">
-                  Email Address *
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  required
-                  className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition"
-                  placeholder="john@company.com"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-200 mb-2">
-                  Phone Number *
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  required
-                  className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition"
-                  placeholder="+1 (555) 000-0000"
-                />
-              </div>
-            </div>
-
-            <div>
-              <label htmlFor="company" className="block text-sm font-medium text-gray-200 mb-2">
-                Company Name
-              </label>
-              <input
-                type="text"
-                id="company"
-                name="company"
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition"
-                placeholder="Your Company"
-              />
-            </div>
-
-            <div className="grid sm:grid-cols-2 gap-4">
-              <div>
-                <label htmlFor="budget" className="block text-sm font-medium text-gray-200 mb-2">
-                  Monthly Budget
-                </label>
-                <select
-                  id="budget"
-                  name="budget"
-                  className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition"
-                >
-                  <option value="">Select range</option>
-                  <option value="under-5k">Under $5,000</option>
-                  <option value="5k-10k">$5,000 - $10,000</option>
-                  <option value="10k-25k">$10,000 - $25,000</option>
-                  <option value="25k-50k">$25,000 - $50,000</option>
-                  <option value="50k-plus">$50,000+</option>
-                </select>
-              </div>
-
-              <div>
-                <label htmlFor="services" className="block text-sm font-medium text-gray-200 mb-2">
-                  Service Interest
-                </label>
-                <select
-                  id="services"
-                  name="services"
-                  className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition"
-                >
-                  <option value="">Select service</option>
-                  <option value="brand-strategy">Brand Strategy</option>
-                  <option value="digital-marketing">Digital Marketing</option>
-                  <option value="social-media">Social Media</option>
-                  <option value="content-creation">Content Creation</option>
-                  <option value="seo-sem">SEO & SEM</option>
-                  <option value="full-service">Full Service</option>
-                </select>
-              </div>
-            </div>
-
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-200 mb-2">
-                Project Details
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition resize-none"
-                placeholder="Tell us about your marketing goals and challenges..."
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              className="w-full bg-gradient-to-r from-purple-500 via-pink-500 to-purple-500 text-white font-semibold py-4 px-6 rounded-lg hover:shadow-lg hover:shadow-purple-500/50 transform hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-slate-900"
-            >
-              Send Message
-            </button>
-
-            <div id="formStatus" className="hidden"></div>
-
-            <p className="text-xs text-gray-400 text-center">
-              By submitting, you agree to Shinobi Canvas's privacy policy
-            </p>
-          </form>
-        </div>
-
-        {/* Decorative Elements */}
-        <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full blur-2xl opacity-50"></div>
-        <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-pink-500 to-indigo-500 rounded-full blur-2xl opacity-50"></div>
-      </div>
-
-    </div>
-  </div>
-</section>
-      
-      {/* Footer */}
-      <footer className="bg-gray-900 text-gray-300 py-12">
-  <div className="container mx-auto px-4">
-    <div className="flex flex-col items-center space-y-6">
-      {/* Logo */}
-      <div className="text-center">
-        <h2 className="text-2xl font-bold text-white">Shinobi Canvas</h2>
-        <p className="text-sm text-gray-400 mt-1">Marketing Excellence</p>
-      </div>
-
-      {/* Contact Info */}
-      <div className="flex flex-col items-center space-y-2 text-sm">
-        <a href="mailto:hello@shinobicanvas.com" className="hover:text-white transition-colors">
-          hello@shinobicanvas.com
-        </a>
-        <a href="tel:+1-555-123-4567" className="hover:text-white transition-colors">
-          +1 (555) 123-4567
-        </a>
-      </div>
-
-      {/* Social Links */}
-      <div className="flex items-center space-x-6">
-        <a href="https://linkedin.com" className="hover:text-white transition-colors" aria-label="LinkedIn">
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-          </svg>
-        </a>
-        <a href="https://twitter.com" className="hover:text-white transition-colors" aria-label="Twitter">
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
-          </svg>
-        </a>
-        <a href="https://instagram.com" className="hover:text-white transition-colors" aria-label="Instagram">
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-          </svg>
-        </a>
-        <a href="https://facebook.com" className="hover:text-white transition-colors" aria-label="Facebook">
-          <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-          </svg>
-        </a>
-      </div>
-
-      {/* Copyright */}
-      <div className="text-center text-sm text-gray-500 pt-4 border-t border-gray-800 w-full max-w-md">
-        <p>&copy; {new Date().getFullYear()} Shinobi Canvas. All rights reserved.</p>
-      </div>
-    </div>
-  </div>
-</footer>
-    </main>
-  )
-}
+            <span className="relative z-10 flex items-center justify-center gap-3
